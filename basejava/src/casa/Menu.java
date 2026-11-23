@@ -34,6 +34,8 @@ public class Menu {
             "\n1) Salir"+
  "\n"+
             "\n2) Detalles de venta previa "+
+             "\n"+
+             "\n3) Lista de objetos"+
             "\n=========================================";
 
 	    
@@ -73,6 +75,10 @@ public class Menu {
                             System.out.println("\nDetalle de la venta ");
                         atencion.comprobarcompra();
                
+                            break;
+                        case 3:
+                            System.out.println("\n----------------");
+                            atencion.gestionarInventario();
                             break;
 				default:
 				System.out.println("Error, vuelvelo a intentar");

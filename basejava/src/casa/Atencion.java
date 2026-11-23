@@ -5,7 +5,7 @@
 package casa;
 
 import java.util.Scanner;
-
+import java.util.ArrayList;
 /**
  *
  * @author krr
@@ -47,7 +47,27 @@ Origen ori = new Origen();
 ori.gestiondemantenimiento(this.cliente);
 
 }
+public void gestionarInventario(){
+ArrayList<String> listadedatos = new ArrayList<String>();
+listadedatos.add("/Algodon-10.0");
+listadedatos.add("/Almidon-12.0");
+listadedatos.add("/Arina-14.0");
+listadedatos.add("/Arena-7.0");
+listadedatos.add("/Estufa-8.0");
+listadedatos.add("/Esternon-7.0");
+listadedatos.add("/Carne seca-10.0");
 
+String cadena = "\n=======Productos ============ "+
+	"\n///Nombre-Precio///"+
+	"\n";
+    System.out.println(cadena);
+for(String cade : listadedatos){
+    System.out.println("\n "+cade);
+}
+    System.err.println("============================");
+
+
+}
 
 
     
