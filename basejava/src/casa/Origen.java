@@ -22,7 +22,7 @@ System.out.println("Nombre del producto: "+cliente.getNombredelproducto());
 System.out.println("Precio del producto: "+cliente.getProducto());
 System.out.println("Fecha de entrega : "+cliente.getFecha());
         System.err.println("Cantidad: "+cliente.getUnidad());
-        System.err.println("Unidades: "+cliente.getProducto()* cliente.getUnidad());
+        System.err.println("Total a pagar : "+cliente.getProducto()* cliente.getUnidad());
         System.out.println("Vendido por: "+cliente.getVendedor());
 System.out.println("=======================");
 
